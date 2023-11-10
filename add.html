@@ -1,0 +1,70 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Employee Project - Add Employee</title>
+
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/add.css">
+
+  <script src="js/vendor/modernizr.js"></script>
+</head>
+<body class="page-apply">
+
+  <header class="site-header">
+    <div class="site-logo">Add Employee Page</div>
+
+    <div class="row column medium-8 large-6 xlarge-5 xxlarge-4">
+      <h1 class="title">Lets add an employee!</h1>
+    </div>
+
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="signin.html">Sign in</a></li>
+        <li><a href="my-resume.html">My Resume</a></li>
+      </ul>
+    </nav>
+    <button type="button" class="btn-menu"><span>Menu</span></button>
+  </header>
+
+  <section class="content">
+    <form id="add-employee">
+        <input type=text id="firstName" class="firstName" placeholder="First Name" required><br>
+        <input type=text id="lastName" class="lastName" placeholder="Last Name" required><br>
+        <input type=text id="bDay" class="bDay" placeholder="Birth Date" onfocus="(this.type='date')" onblur="(this.type='text')"  required><br>
+        <input type=text id="position" class="position" placeholder="Position" required><br>
+        <input type="number" id="pay" class="pay" placeholder="Pay per hour" required><br>
+      
+      </form>
+      
+  </section>
+
+  <footer class="site-footer">
+    <div class="row column">
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="signin.html">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="row column">
+      <div class="footer-legal">
+        &copy;Edwin Cotto INC.<br>
+        For Resume Purposes Only
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/vendor.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

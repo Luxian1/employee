@@ -1,0 +1,20 @@
+input[type=text], [type=date], [type=number]{
+    background: transparent;
+    border: none;
+    color: red;
+}
+input[type=text]::placeholder, input[type=number]::placeholder{
+    text-align: center;
+    color: red;
+    opacity: 0.7
+        
+}
+
+input[type=date]{
+    opacity: 0.9;
+    
+}
+
+.title{
+    text-shadow: black -3px -5px 6px, black -3px 5px 6px;
+}
